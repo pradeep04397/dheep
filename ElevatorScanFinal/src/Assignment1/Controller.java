@@ -49,7 +49,7 @@ public static void setElevators(Vector elev) {
 }
 
 
-//scan algorithm
+//scan algorithm multithreading
 public  synchronized static  Elevator requestElevator(Person pr) {
 	boolean noDirection = false;
 	List elevatorsSubList = new ArrayList();
